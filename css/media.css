@@ -1,0 +1,305 @@
+@media(max-width:992px){
+    .header-container{
+        width: 95%;
+    }
+    .about-container{
+        width: 95%;
+    }
+    .about-container{
+        width: 95%;
+    }
+    .trip-container{
+        width: 95%;
+    }
+    .pack-container{
+        width: 95%;
+    }
+    .pack-box p{
+        bottom: 55%;
+    }
+    .enjoy-container{
+        width: 90%;
+    }
+    .destination-container{
+        width: 95%;
+    }
+    .footer-container{
+        width: 95%;
+    }
+
+    /* --- about page --- */
+
+
+    .offer-container{
+        width: 90%;
+    }
+    .flex-1{
+        margin: 10px;
+    }
+    .customer-container{
+        width: 90%;
+    }
+
+    /* --- service page ---- */
+
+    .service-container{
+        width: 90%;
+    } 
+    .place-container{
+        width: 95%;
+    }
+
+
+    /* ---- contact page ----  */
+
+    .touch-container{
+        width: 90%;
+    }
+    .contact-container{
+        width: 90%;
+    }
+
+}
+
+
+@media(max-width:960px){
+    .header-container{
+        width: 100%;
+    }
+    header label{
+        display: block;
+    }
+
+    nav ul{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        left: -100%;
+        transition: all 1s;
+        z-index: 9;
+        text-align: center;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 30px;
+    }
+
+    #toggle:checked~nav ul{
+        left: 0;
+    }
+}
+
+
+@media(max-width:768px){
+    .item-text{
+        width: 700px;
+    }
+    .item-text h3{
+        font-size: 45px;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .about-box{
+        width: 100%;
+    }
+    .number-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .trip-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .pack-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .china-img img {
+        height: 200px;
+    }
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* --- about page --- */
+
+
+    #offer{
+        height: 100%;
+    }
+    .flex-1{
+        width: 45%;
+    }
+    #customer h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    /* --- service page --- */
+
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    #service h3{
+        font-size: 36px;
+    }
+    #place h3{
+        font-size: 36px;
+    }
+    .place-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ---- contact page ---  */
+
+    .contact-text h4{
+        font-size: 23px;
+    }
+    .contact-text h5{
+        font-size: 23px;
+        margin-top: 16px;
+        line-height: 27px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:480px){
+    .item-text {
+        width: 400px;
+    }
+    .item-text h3 {
+        font-size: 28px;
+    }
+    .item-text h4{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .btn-1 a{
+        padding: 10px 25px;
+    }
+    .trip-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #trip h3{
+        font-size: 32px;
+    }
+    #pack h3{
+        font-size: 32px;
+    }
+    .pack-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pack-box img{
+        height: auto;
+    }
+    .pack-box p {
+        bottom: 38%;
+    }
+    .destination-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottom-container{
+        width: 95%;
+    }
+
+
+    /* --- about page --- */
+
+    .flex-1{
+        width: 100%;
+    }
+    .customer-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* --- service page --- */
+
+    .service-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .enjoy-box h3{
+        font-size: 36px;
+    }
+    .place-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* ---- contact page ---  */
+
+    .touch-container {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    #touch h3{
+        font-size: 36px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-text{
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media(max-width:360px){
+    .item-text {
+        width: 340px;
+    }
+    .item-text h3 {
+        font-size: 22px;
+    }
+    .about-text h3 {
+        font-size: 22px;
+    }
+    .number-box span i {
+        font-size: 24px;
+    }
+    .number-box h4 {
+        font-size: 30px;
+    }
+    .number-box p {
+        font-size: 13px;
+    }
+    .enjoy-box h3{
+        font-size: 32px;
+    }
+    #destination h3{
+        font-size: 32px;
+    }
+
+
+
+    /* ---- contact page ----  */
+
+    #touch h3{
+        font-size: 30px;
+    }
+    .contact-left{
+        padding: 30px;
+    }
+    .contact-text{
+        padding-left: 20px;
+    }
+}
